@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #1f2023;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  width: 60%;
+  color: white;
+  border: 20px solid #1f2023;
+  border-top: 20px solid #4d6d63;
+  border-bottom: 20px solid #4d6d63;
+}
+
+form {
+  width: 60%;
+}
+
+fieldset {
+  background-color: #d6e1de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #2b3d37;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+input:focus {
+  background-color: #4d6d63;
+}
+
+fieldset:focus-within {
+  background-color: #a3bdb7;
+}
+
+legend {
+  background-color: #2b3d37;
+  color: white;
+  border: 10px solid #2b3d37;
+  border-radius: 5px;
+}
+
+legend:focus {
+  background-color: #293a36;
+}
+
+input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  height: 25px;
+  width: 70%;
+  border: 1px solid#2b3d37;
+  border-radius: 3px;
+}
+
+select {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  height: 25px;
+  width: 70%;
+  border: 1px solid#2b3d37;
+  border-radius: 3px;
+}
+
+select:focus {
+  background-color: #4d6d63;
+}
+
+textarea {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 70%;
+  resize: vertical;
+  min-height: 140px;
+}
+
+textarea:focus {
+  background-color: #4d6d63;
+}
+
+input[type="email"] {
+  text-align: right;
+  height: 25px;
+  width: 70%;
+  border: 1px solid#2b3d37;
+  border-radius: 3px;
+}
+
+.telefono {
+  text-align: right;
+}
+
+.Actividades {
+  align-items: start;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+}
+
+.piepagina {
+  color: white;
+}
+
+.separador {
+  width: 40%;
+  border-top: 15px dotted #a6c1b9;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 15px;
+}
+
+.botones {
+  text-align: center;
+}
+
+.boton {
+  background-color: #2b3d37;
+  color: #a6c1b5;
+  border: 1px solid #4d6d63;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.boton:hover {
+  background-color: #a3bdb9;
+  color: #475751;
+}
